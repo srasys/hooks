@@ -1,9 +1,8 @@
-import './App.css';
-
+import React, { useState } from "react";
 function App() {
   return (
     <div className="App">
-    <h1>hooks</h1>
+      <h1>hooks</h1>
     </div>
   );
 }
