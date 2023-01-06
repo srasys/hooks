@@ -1,7 +1,6 @@
 import React from "react";
 
-import Final from "./useContext/final/1-useContext-basics";
-
+import Final from './useReducer/final/2-useReducer-advance'
 import { UserContextProvider } from "./context/userContext";
 
 import { MainDataContextProvider } from "./context/mainDataContext";
