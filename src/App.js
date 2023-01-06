@@ -1,13 +1,17 @@
 import React from "react";
-// import Final from './useState/final/1-useState-basics'
 
-// import Final from  './useState/final/2-useState-advanced'
-import Final from  './useEffect/final/3-useEffect-Example'
+import Final from "./useContext/final/1-useContext-basics";
+
+import { UserContextProvider } from "./context/userContext";
+
+import { MainDataContextProvider } from "./context/mainDataContext";
 function App() {
   return (
-    <div className="App">
-      <Final/>
-    </div>
+    <MainDataContextProvider>
+      <UserContextProvider>
+        <Final />
+      </UserContextProvider>
+    </MainDataContextProvider>
   );
 }
 
