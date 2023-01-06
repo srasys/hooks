@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.decrease{
+  border-color: aquamarine;
+  padding: 10px
+}
+.increase{
+  border-color: aquamarine;
+  padding: 10px
+}
+.count{
+  margin: 10px;
+}
