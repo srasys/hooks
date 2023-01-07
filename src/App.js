@@ -1,6 +1,6 @@
 import React from "react";
 
-import Final from './useRef/final/2-useRef-advance'
+import Final from './useMemo/final/1-useMemo-example'
 import { UserContextProvider } from "./context/userContext";
 
 import { MainDataContextProvider } from "./context/mainDataContext";
