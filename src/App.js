@@ -1,6 +1,6 @@
 import React from "react";
 
-import Final from './useMemo/final/1-useMemo-example'
+import Final from './useCallback/final/ParentComp'
 import { UserContextProvider } from "./context/userContext";
 
 import { MainDataContextProvider } from "./context/mainDataContext";
