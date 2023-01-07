@@ -22,3 +22,32 @@ code {
 .count{
   margin: 10px;
 }
+nav.primary-nav{
+  padding: 20px;
+  background-color: lightblue;
+}
+nav a{
+  margin-right: 15px;
+}
+
+nav a.active{
+  font-weight: bold;
+  text-decoration: none;
+  color:red
+}
+.card-container{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.card{
+  background-color: lightblue;
+  padding: 10px;
+}
+
+
+@media screen and (min-width:992px) {
+  .card-container{
+    grid-template-columns:  1fr 1fr 1fr;
+    gap:1rem
+  }
+}
